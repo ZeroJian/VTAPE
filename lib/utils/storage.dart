@@ -51,7 +51,7 @@ class Storage {
     pref.setStringList(PREF_VIDEOHISTORY, value);
   }
 
-  static String cacheToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjgzMzkwODQsImlkIjoxNDJ9.ZIvPGS775v9AqCMRmdZ5WoOlQdFk9Ej7J6Sshd-lQiA";
+  static String cacheToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1Njg0NDc1MTgsImlkIjoxNDJ9.vlVVo0m1U6rup53dSlPEN_1ncSjukw9RtVIQznq3mjQ";
 
   static initCacheToken() {
     token.then((v){
