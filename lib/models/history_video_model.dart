@@ -22,7 +22,7 @@ class StorageVideoHistory {
     if (position == 0) {
       return null;
     }
-    return Duration(seconds: duration - 100);
+    return Duration(seconds: position);
   }
 
   String playTime() {

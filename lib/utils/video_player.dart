@@ -47,9 +47,9 @@ class AppVideoPlayer {
     }
     playIndex = index;
 
-    if (fjPlayer.state == FijkState.completed) {
-      autoNextAction(index);
-    }
+    // if (fjPlayer.state == FijkState.completed) {
+    //   autoNextAction(index);
+    // }
 
     String url = source[index];
     play(url: url, position: position, errorCallback: errorCallback);
@@ -101,10 +101,10 @@ class AppVideoPlayer {
     if (fjPlayer.value.prepared && _historyPosition != null) {
       fjPlayer.seekTo(_historyPosition.inMilliseconds);
     }
-    /// 自动播放下一集
-    if (fjPlayer.state == FijkState.completed && sessionSource != null) {
-       playSession(source: sessionSource, index: playIndex + 1);   
-    }
+    /// 自动播放下一集  
+    // if (fjPlayer.state == FijkState.completed && sessionSource != null) {
+    //    playSession(source: sessionSource, index: playIndex + 1);   
+    // }
 
   }
 

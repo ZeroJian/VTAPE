@@ -23,6 +23,8 @@ dependencies:
   dio: ^1.0.13
   webview_flutter: ^0.3.13
   shared_preferences: ^0.5.3+4
+  screen: ^0.0.5
+
   
   # video_player: ^0.10.2
   # chewie: ^0.9.7

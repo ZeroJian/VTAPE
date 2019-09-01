@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:screen/screen.dart';
 import 'package:ovprogresshud/progresshud.dart';
 
 import 'package:vtape/models/hot_list_model.dart';
@@ -35,18 +36,19 @@ class _VideoDetailPageState extends State<VideoDetailPage> with SingleTickerProv
   @override
   void initState() {
     super.initState();
-
+    Screen.keepOn(true);
     // 自动播放下一集时刷新播放列表选择的集数
-    player.playerAutoNextAction((index) {
-      setState(() {
-      });
-    });
+    // player.playerAutoNextAction((index) {
+    //   setState(() {
+    //   });
+    // });
     
     _requestDataSource();
   }
 
   @override
   void dispose() {
+    Screen.keepOn(false);
     _pageDispose();
     super.dispose();
   }
