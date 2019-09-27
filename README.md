@@ -26,6 +26,14 @@
 
 6.App 内提供了输入 Token 更新功能
 
+注: iOS 视频播放需使用真机
+
+
+
+2019.9.28:
+
+目前接口已经被墙, 正常访问需准备梯子
+
 ---
 
 使用到的非官方组件:
@@ -38,9 +46,9 @@ ovprogresshud  提示框
 
 ---
 
-视频资源来源: [https://dd.shmy.tech](黑人视频)
+视频资源来源: [https://dd.shmy.tech](https://dd.shmy.tech)
 
-Android 端下载地址: [https://www.pgyer.com/vtape](蒲公英)
+Android 端下载地址: [https://www.pgyer.com/vtape](https://www.pgyer.com/vtape)
 
 
 
