@@ -30,7 +30,7 @@
 
 使用到的非官方组件:
 
-fijkplayer 视频播放
+[fijkplayer](https://github.com/befovy/fijkplayer) 视频播放
 
 pull_to_refresh 列表刷新
 
